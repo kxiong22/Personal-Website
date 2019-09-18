@@ -260,7 +260,7 @@ var locations = [
     "and the thing  I always miss most is my adorable dog Charlie. <br> (2000-Present)</p>" +
     "<div><img src = './images/charlie1.jpeg' height = '130px' width = 100%></div>", 33.019844, -96.698883],
     ["<h6>Cambridge, MA</h6><p>I'm a CS major at MIT - the best school in the world! <br> (2018-2022)</p>" + 
-    "<div><img src = './images/boston1.jpg' height = '180px' width = 100%></div>", 42.365250, -71.105011],
+    "<div><img src = './images/boston1.JPG' height = '180px' width = 100%></div>", 42.365250, -71.105011],
     ["<h6>Sao Paulo, Brazil</h6><p>I did a Global Teaching Lab here during IAP! <br> (Jan 2019)</p>" +
     "<div><img src = './images/brazil1.jpg' height = '110px' width = 100%></div>", -23.548670, -46.638248],
     ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>" +
