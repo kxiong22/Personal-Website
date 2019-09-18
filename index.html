@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">        
+        <link rel="stylesheet" href="style.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9tnLpLxCEl7Xnkv65yvWkeOnCB-UhGLs"></script>
+    </head>
+    <body>
+        <!--***************************** PAGE 1 ******************************************************************-->
+        <div id = "intro-container" class = "parallax" class = "text-center">
+            <div class = "text-center" style = "padding-top: 30px"> 
+                <div id = "hi">Hi, I'm</div>
+                <div id = "profile-name">Katherine Xiong</div>
+            </div>
+        </div>
+        
+        <!--***************************** PAGE 2 ******************************************************************-->
+        <div class = "text-center" id = "about-me">
+            <hr>
+            <div class = "adventure">about me</div> 
+            <a href = "./Internship Resume.pdf" class = "btn btn-outline-info">Download Resume</a>
+            <div class = "bullet-point">
+                <i class = "material-icons">school</i>
+                <span class = "grayed">Education</span>
+                <div> Massachusetts Institute of Technology</div>
+                <div class = "grayed"> B.S. Computer Science, Class of 2022</div>
+            </div>
+
+            <div class  = "bullet-point">
+                <i class = "material-icons">location_on</i>
+                <span class = "grayed">Home</span>
+                <div> Plano, Texas </div>
+            </div>
+
+            <div class = "bullet-point">
+                <i class = "material-icons">desktop_windows</i>
+                <span class = "grayed">Programming Skills</span>
+                <div> Python | Java | HTML/CSS </div>
+            </div>
+
+            <div class = "bullet-point">
+                <i class = "material-icons">flight</i>
+                <span class = "grayed">Hobbies</span>
+                <div> Dancing | Painting | Photography </div>
+            </div>
+
+            <div class = "bullet-point">
+                <i class = "material-icons">mail</i>
+                <span class = "grayed">Contact</span>
+                <div>
+                    <a id = "fb" href = "https://www.facebook.com/katherine.xiong.14" class = "btn btn-link" role = "button"></a>
+                    <a id = "in" href = "https://www.linkedin.com/in/katherine-xiong-ba1241171/" class = "btn btn-link" role = "button"></a>
+                    <a id = "mail" href = "mailto:kxiong22@mit.edu" class = "btn btn-link" role = "button"></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!--***************************** PAGE 3 ******************************************************************-->
+        <div id = "map-container" class = "text-center">
+            <div class = "adventure">check out my adventures around the world!</div>
+            <div id="map"></div>
+        </div>
+
+        <!--***************************** PAGE 4 ******************************************************************-->
+        <div id = "photos-container">
+            <div class = "adventure">photography</div>
+            <div class = "row no-gutters">
+                <div class = "col-2">
+                    <div class = "location-container"> 
+                        <div class = "location">texas</div>
+                    </div>
+                    <div class = "location-container"> 
+                        <div class = "location">brazil</div>
+                    </div>
+                    <div class = "location-container"> 
+                        <div class = "location">europe</div>
+                    </div>
+
+                </div>
+                <div class = "col-2 no-gutters">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/charlie1.jpeg">
+                        <img src = "./images/charlie1.jpeg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil1.jpg">
+                        <img src = "./images/brazil1.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe1.jpg">
+                        <img src = "./images/europe1.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe5.jpg">
+                        <img src = "./images/europe5.jpg" class = "button-pic">
+                    </button> 
+                </div>
+
+                <div class = "col-2">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/charlie3.jpg">
+                        <img src = "./images/charlie3.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil2.jpg">
+                        <img src = "./images/brazil2.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe2.jpg">
+                        <img src = "./images/europe2.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe6.jpg">
+                        <img src = "./images/europe6.jpg" class = "button-pic">
+                    </button>
+                </div>
+
+                <div class = "col-2">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/charlie4.jpg">
+                        <img src = "./images/charlie4.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil3.jpg">
+                        <img src = "./images/brazil3.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe3.jpg">
+                        <img src = "./images/europe3.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe7.jpg">
+                        <img src = "./images/europe7.jpg" class = "button-pic">
+                    </button>
+                </div>
+
+                <div class = "col-2">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/white.jpg">
+                        <img src = "./images/white.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/white.jpg">
+                        <img src = "./images/white.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe4.jpg">
+                        <img src = "./images/europe4.jpg" class = "button-pic">
+                    </button>
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe8.jpg">
+                        <img src = "./images/europe8.jpg" class = "button-pic">
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <img id="modal-pic" class = "popup-pic" src = "./images/charlie1.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> 
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="./javascript.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
