@@ -72,10 +72,11 @@ hr{ /*horizontal line*/
 }
 
 #in{
-    background-image: url(./images/media.svg);
+    background-image: url(./images/linkedinlogo.svg);
     background-size: 50px 50px;
     height: 50px;
     width: 50px;
+
 }
 
 /************************************************************* Page 2.5 *********************************************/

@@ -8,11 +8,9 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 // Detect request animation frame
 var scroll = window.requestAnimationFrame || function(callback){ window.setTimeout(callback, 1000/60)};
 var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
-console.log(elementsToShow);
 function loop() {
     Array.prototype.forEach.call(elementsToShow, function(element){
       if (isElementInViewport(element)) {
-        console.log("visible");
         element.classList.add('is-visible');
       } else {
         element.classList.remove('is-visible');
@@ -77,13 +75,12 @@ var map = new google.maps.Map(document.getElementById('map'),{
 });
 
 var locations = [
-    ["<h6>Plano, TX</h6> <p>My home! I've lived here my whole life " +
-    "and the thing  I always miss most is my adorable dog. <br> (2000-Present)</p>", 33.019844, -96.698883],
+    ["<h6>Plano, TX</h6> <p>My home! (2000-Present)</p>", 33.019844, -96.698883],
     ["<h6>Cambridge, MA</h6><p>I'm a CS major at MIT - the best school in the world! <br> (2018-2022)</p>", 42.365250, -71.105011],
     ["<h6>Sao Paulo, Brazil</h6><p>I did a Global Teaching Lab here during IAP! <br> (Jan 2019)</p>", -23.548670, -46.638248],
-    ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>", 51.441643, 5.469722],
-    ["<h6>New York, New York</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.7580, -73.9855],
-    ["<h6>Seattle, Washington</h6><p>I did a summer internship at AWS! <br> (June-Aug 2020)</p>", 47.6062, -122.3321]
+    ["<h6>New York, NY</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.7580, -73.9855],
+    ["<h6>Seattle, Washington</h6><p>I did a summer internship at AWS! <br> (June-Aug 2020)</p>", 47.6062, -122.3321],
+    ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>", 51.441643, 5.469722]
 ];
 
 var infowindow = new google.maps.InfoWindow({maxWidth: 220});
