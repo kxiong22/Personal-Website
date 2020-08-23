@@ -57,26 +57,10 @@ hr{ /*horizontal line*/
     padding: 10px;
 }
 
-#mail{
-    background-image: url(https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454734_960_720.png);
-    background-size: 50px 50px;
+.contact-img {
+    padding: 0px;
     height: 50px;
     width: 50px;
-}
-
-#fb{
-    background-image: url(http://mindoffable.com/wp-content/uploads/2015/03/facebook-circle-icon-256.png);
-    background-size: 50px 50px;
-    height: 50px;
-    width: 50px;
-}
-
-#in{
-    background-image: url(./images/linkedinlogo.svg);
-    background-size: 50px 50px;
-    height: 50px;
-    width: 50px;
-
 }
 
 /************************************************************* Page 2.5 *********************************************/

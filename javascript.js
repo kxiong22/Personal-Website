@@ -75,7 +75,7 @@ var map = new google.maps.Map(document.getElementById('map'),{
 });
 
 var locations = [
-    ["<h6>Plano, TX</h6> <p>My home! (2000-Present)</p>", 33.019844, -96.698883],
+    ["<h6>Plano, TX</h6><p>My home! (2000-Present)</p>", 33.019844, -96.698883],
     ["<h6>Cambridge, MA</h6><p>I'm a CS major at MIT - the best school in the world! <br> (2018-2022)</p>", 42.365250, -71.105011],
     ["<h6>Sao Paulo, Brazil</h6><p>I did a Global Teaching Lab here during IAP! <br> (Jan 2019)</p>", -23.548670, -46.638248],
     ["<h6>New York, NY</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.7580, -73.9855],
