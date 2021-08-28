@@ -78,9 +78,10 @@ var locations = [
     ["<h6>Plano, TX</h6><p>My home! (2000-Present)</p>", 33.019844, -96.698883],
     ["<h6>Cambridge, MA</h6><p>I'm a CS major at MIT - the best school in the world! <br> (2018-2022)</p>", 42.365250, -71.105011],
     ["<h6>Sao Paulo, Brazil</h6><p>I did a Global Teaching Lab here during IAP! <br> (Jan 2019)</p>", -23.548670, -46.638248],
-    ["<h6>New York, NY</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.7580, -73.9855],
+    ["<h6>New York, NY</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.755, -73.987],
     ["<h6>Seattle, Washington</h6><p>I did a summer internship at AWS! <br> (June-Aug 2020)</p>", 47.6062, -122.3321],
-    ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>", 51.441643, 5.469722]
+    ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>", 51.441643, 5.469722],
+    ["<h6>New York, NY</h6><p>I did a summer internship at Goldman Sachs! <br> (June-Aug 2021)</p>", 40.715, -74.015]
 ];
 
 var infowindow = new google.maps.InfoWindow({maxWidth: 220});
