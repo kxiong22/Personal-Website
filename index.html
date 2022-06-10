@@ -8,6 +8,25 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjLkTo8Pl1lhIhIGdisIlkzqJq_HScqB4"></script>
     </head>
     <body>
+        <!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #faf2ed;">
+            <a class="navbar-brand" href="#">KX</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience-container">experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photos-container">photography</a>
+                  </li>
+              </ul>
+            </div>
+          </nav> -->
         <!--***************************** PAGE 1 ******************************************************************-->
         <div id = "intro-container" class = "parallax text-center">
             <div class = "text-center" style = "padding-top: 30px"> 
@@ -43,7 +62,7 @@
             <div class = "bullet-point">
                 <i class = "material-icons">flight</i>
                 <span class = "grayed">Hobbies</span>
-                <div> Dancing | Painting | Photography </div>
+                <div> Crosswords | Crochet | Painting </div>
             </div>
 
             <div class = "bullet-point">
@@ -68,7 +87,7 @@
         </div>
 
         <!--***************************** PAGE 2.5 ******************************************************************-->
-        <div class="experience-container text-center">
+        <div id="experience-container" class="experience-container text-center">
             <div class="experience-title">experience</div>
             <div class = "row experience-row show-on-scroll" style= "padding-bottom: 40px">
                 <div class = "col-6">
@@ -118,23 +137,69 @@
                     </div>
                 </div>
             </div>
+            <hr>
+        </div>
 
-            <div class = "row experience-row show-on-scroll" style= "padding-bottom: 40px">
+        <!--***************************** PAGE 2.75 ******************************************************************-->
+        <div id="experience-container" class="experience-container text-center">
+            <div class="experience-title">projects</div>
+            <div class="text-center" style="font-size: 18px">i've taken a lot of cool classes over the years</div>
+            <div class = "row" style= "padding-bottom: 40px">
                 <div class = "col-6">
-                    <img class = "experience-logo" src = "https://www.csail.mit.edu/sites/default/files/logos_templates/logo-2C-notext.svg"/>
-                </div>
-                <div class = "col-5">
-                    <div style="font-size: 24px">MIT Computer Graphics Lab</div>
+                    <div style="font-size: 24px">6.170 Software Studio</div>
                     <div style="font-size: 18px">
-                        <div>Research Assistant, May 2020 - Present</div>
-                        <div>Boston, MA</div>
+                        <div><span class="final-project-title">Raft</span>: A website to connect communities</div>
                     </div>
                     <div style="font-size: 16px">
-                        Leveraged deep image priors to improve a convolutional neural network for novel view synthesis
+                        <a class="final-project-link" target="_blank" href=https://raft-216-ducks.herokuapp.com>https://raft-216-ducks.herokuapp.com</a>
+                    </div>
+                </div>
+                <div class = "col-6">
+                    <div style="font-size: 24px">MAS.863 How to Make (Almost) Anything</div>
+                    <div style="font-size: 18px">
+                        <div>Every week was a different cool project :)</div>
+                    </div>
+                    <div style="font-size: 16px">
+                        <a class="final-project-link" target="_blank" href=http://fab.cba.mit.edu/classes/MAS.863/EECS/people/katherine/index.html>Documentation</a>
                     </div>
                 </div>
             </div>
+            <div class="row" style="padding-bottom:40px">
+                <div class = "col-6">
+                    <div style="font-size: 24px">21M.385 Interactive Music Systems</div>
+                    <div style="font-size: 18px">
+                        <div><span class="final-project-title">Beat-Boxer</span>: A karate music rhythm game</div>
+                    </div>
+                    <div style="font-size: 16px">
+                        <a class="final-project-link" target="_blank" href="https://github.mit.edu/21m385/beat-boxer">Video</a>
+                    </div>
+                </div>
+                <div class = "col-6">
+                    <div style="font-size: 24px">6.835 Intelligent Multimodal User Interfaces</div>
+                    <div style="font-size: 18px">
+                        <div><span class="final-project-title">Virtual Rage Cage</span>: Release your rage in a a safe and contained manner</div>
+                    </div>
+                    <div style="font-size: 16px">
+                        <a class="final-project-link" target="_blank" href="https://www.youtube.com/watch?v=angT3s0ER0Y&ab_channel=KatherineXiong">Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom:40px">
+                <div class = "col-6">
+                    <div style="font-size: 24px">6.08 Interconnected Embedded Systems</div>
+                    <div style="font-size: 18px">
+                        <div><span class="final-project-title">Music Sync Lights</span>: An end-to-end LED light system that can automatically sync to music or be programmed on a user interface</div>
+                    </div>
+                    <div style="font-size: 16px">
+                        <a class="final-project-link" target="_blank" href="https://github.mit.edu/21m385/beat-boxer">Video</a>
+                    </div>
+                </div>
+                <div class = "col-6">
+                </div>
+            </div>
+            <hr>
         </div>
+        
         <!--***************************** PAGE 3 ******************************************************************-->
         <div id = "map-container" class = "text-center">
             <div class = "adventure">check out my adventures around the world!</div>
@@ -151,22 +216,22 @@
                     </div>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa1.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa1.jpg" data-caption="Hoover Dam">
                         <img src = "./images/usa1.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa2.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa2.jpg" data-caption="Antelope Canyon">
                         <img src = "./images/usa2.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa3.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa3.jpg" data-caption="Grand Canyon">
                         <img src = "./images/usa3.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa4.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/usa4.jpg" data-caption="Bryce Canyon">
                         <img src = "./images/usa4.jpg" class = "button-pic">
                     </button>
                 </div>
@@ -178,22 +243,22 @@
                     </div>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil1.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil1.jpg" data-caption="Maresias Beach">
                         <img src = "./images/brazil1.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil2.JPG">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil2.JPG" data-caption="Sugarloaf Mountain">
                         <img src = "./images/brazil2.JPG" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil3.JPG">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil3.JPG" data-caption="Rio De Janeiro">
                         <img src = "./images/brazil3.JPG" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil4.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/brazil4.jpg" data-caption="Sao Paolo">
                         <img src = "./images/brazil4.jpg" class = "button-pic">
                     </button>
                 </div>
@@ -205,22 +270,22 @@
                     </div>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe1.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe1.jpg" data-caption="Amsterdam">
                         <img src = "./images/europe1.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe2.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe2.jpg" data-caption="Vienna">
                         <img src = "./images/europe2.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe3.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe3.jpg" data-caption="Zaanse Schans">
                         <img src = "./images/europe3.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe4.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe4.jpg" data-caption="Bruges">
                         <img src = "./images/europe4.jpg" class = "button-pic">
                     </button>
                 </div>
@@ -228,22 +293,22 @@
             <div class = "row no-gutters">
                 <div class = "col-2"></div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe5.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe5.jpg" data-caption="Berlin">
                         <img src = "./images/europe5.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe6.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe6.jpg" data-caption="Dublin">
                         <img src = "./images/europe6.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe7.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe7.jpg" data-caption="The Hague">
                         <img src = "./images/europe7.jpg" class = "button-pic">
                     </button>
                 </div>
                 <div class = "col-2 no-gutters">
-                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe8.jpg">
+                    <button type="button" class = "photo" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-pic="./images/europe8.jpg" data-caption="Cologne">
                         <img src = "./images/europe8.jpg" class = "button-pic">
                     </button>
                 </div>
@@ -258,6 +323,7 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             <img id="modal-pic" class = "popup-pic" src = "./images/charlie1.jpeg">
+                            <div id="modal-caption" class="popup-caption">caption</div>
                         </div>
                     </div>
                 </div>

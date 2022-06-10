@@ -87,6 +87,16 @@ hr{ /*horizontal line*/
     height: 150px;
     width: 150px;
 }
+
+.final-project-title{
+    /* color: #b3d1d1; */
+    font-weight: 400;
+}
+
+.final-project-link{
+    color: #b3d1d1;
+    font-weight: 400;
+}
  /************************************************************* Page 3 **************************************************/
 #map-container{
     height: 100vh;
@@ -150,4 +160,11 @@ hr{ /*horizontal line*/
 .popup-pic{
     width: 100%;
     object-fit: contain;
+    background-color: #b3d1d1;
+}
+
+.popup-caption{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }

@@ -1,8 +1,11 @@
 $('#exampleModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
   var pic = button.data('pic') // Extract info from data-* attributes
+  var caption = button.data('caption')
   console.log($('#modal-pic').attr("src"))
-  $('#modal-pic').attr("src", pic)
+  console.log(caption)
+  $('#modal-pic').attr("src", pic);
+  $('#modal-caption').html(caption);
 })
 
 // Detect request animation frame
@@ -81,7 +84,8 @@ var locations = [
     ["<h6>New York, NY</h6><p>I did a winter externship at Bank of America! <br> (Jan 2020)</p>", 40.755, -73.987],
     ["<h6>Seattle, Washington</h6><p>I did a summer internship at AWS! <br> (June-Aug 2020)</p>", 47.6062, -122.3321],
     ["<h6>Eindhoven, Netherlands</h6><p>I did a summer internship at Philips! <br> (June-Aug 2019)</p>", 51.441643, 5.469722],
-    ["<h6>New York, NY</h6><p>I did a summer internship at Goldman Sachs! <br> (June-Aug 2021)</p>", 40.715, -74.015]
+    ["<h6>New York, NY</h6><p>I did a summer internship at Goldman Sachs! <br> (June-Aug 2021)</p>", 40.715, -74.015],
+    ["<h6>London, UK</h6><p>I did a summer internship at J.P. Morgan! <br> (June-Aug 2022)</p>", 51.5076, 0.1276]
 ];
 
 var infowindow = new google.maps.InfoWindow({maxWidth: 220});
