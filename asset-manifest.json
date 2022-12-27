@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8786d15.css",
+    "main.js": "/static/js/main.44dd6000.js",
+    "static/media/aboutPic2.jpg": "/static/media/aboutPic2.b8fc5836833dc607102a.jpg",
+    "static/media/vienna1.JPG": "/static/media/vienna1.f01725fa1eb4f7cad452.JPG",
+    "static/media/white.jpg": "/static/media/white.f858813b7d095643b1b2.jpg",
+    "index.html": "/index.html",
+    "main.a8786d15.css.map": "/static/css/main.a8786d15.css.map",
+    "main.44dd6000.js.map": "/static/js/main.44dd6000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8786d15.css",
+    "static/js/main.44dd6000.js"
+  ]
+}
