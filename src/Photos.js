@@ -49,7 +49,7 @@ class Photos extends React.Component {
     }
 
     renderPhoto(country, i) {
-        const src = './' + country + i + '.jpg';
+        const src = './images/' + country + i + '.jpg';
         const id = country + i;
 
         return (

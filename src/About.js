@@ -77,16 +77,16 @@ class About extends React.Component {
                         //     </a>
                         // </div>
                         <div>
-                            <a className = "btn btn-link" href = "https://www.facebook.com/katherine.xiong.14" role = "button">
+                            <a className = "btn btn-link" target = "_blank" href = "https://www.facebook.com/katherine.xiong.14">
                                 <img className = "contact-img" src = "https://cdn.iconscout.com/icon/free/png-256/facebook-2038470-1718513.png"/>
                             </a>
-                            <a className = "btn btn-link" href = "https://www.instagram.com/katherine_xiong52" role = "button">
+                            <a className = "btn btn-link" target = "_blank" href = "https://www.instagram.com/katherine_xiong52">
                                 <img className = "contact-img" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"/>
                             </a>
-                            <a className = "btn btn-link" href = "https://www.linkedin.com/in/katherine-xiong-ba1241171?trk=profile-badge" role = "button">
+                            <a className = "btn btn-link" target = "_blank" href = "https://www.linkedin.com/in/katherine-xiong-ba1241171?trk=profile-badge">
                                 <img className = "contact-img" src = "https://cdn-icons-png.flaticon.com/512/174/174857.png"/>
                             </a>
-                            <a className = "btn btn-link" href = "mailto:kxiong22@mit.edu" role = "button">
+                            <a className = "btn btn-link" target = "_blank" href = "mailto:kxiong22@mit.edu">
                                 <img className = "contact-img" src = "https://www.shareicon.net/data/256x256/2016/07/08/117553_email_512x512.png"/>
                             </a>
                         </div>
